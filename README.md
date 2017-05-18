@@ -2,6 +2,10 @@
 
 ¿How to solve logic games using an FPGA? Let's do some experiments!
 
+## Cases
+
+* [Case 1 (es)](https://github.com/Jesus89/logic-games/wiki/Caso-01)
+
 ## Authors
 
 * [Jesús Arroyo Torrens](https://github.com/Jesus89)
