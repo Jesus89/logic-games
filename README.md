@@ -5,6 +5,7 @@
 ## Cases
 
 * [Case 1 (es)](https://github.com/Jesus89/logic-games/wiki/Caso-01)
+* [Case 2 (es)](https://github.com/Jesus89/logic-games/wiki/Caso-02)
 
 ## Authors
 
