@@ -20,9 +20,11 @@ Ejemplo:
 
 A dice B es un escudero. ¿Qué podemos determinar?
 
+A ⇔ P
 A: P = ¬B
 
-LECCIÓN: NOT
+
+LECCIÓN: NOT, XNOR
 SOLUCIÓN: A y B son distintos
 
 Los siguientes casos están ordenados por orden de complejidad de la sentencia, pero no de evaluación de la respuesta.
@@ -53,7 +55,7 @@ dos es igual a cinco».
 
 A: P = ¬A ∨ 0
 
-LECCIÓN: 0, contradicciones
+LECCIÓN: 0, contradicciones (⊥)
 SOLUCIÓN: el enunciado es imposible ya que contiene una contradicción (P=!A)
 
 
@@ -106,7 +108,10 @@ y B del mismo tipo?».
 A: P = (B ⇔ C)
 
 LECCIÓN: XNOR
-SOLUCIÓN:
+SOLUCIÓN: se obtienen las soluciones válidas (1,0,0), (0,1,0), (0,0,1), (1,1,1)
+En los casos que C es un escudero A y B son de distinto tipo.
+En los casos que C es un caballero A y B son del mismo tipo.
+En ambos casos C responderá SÍ.
 
 
 # Caso 6
