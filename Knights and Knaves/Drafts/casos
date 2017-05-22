@@ -157,8 +157,9 @@ A: P = ?
 B: Q = (A ⇔ ¬A)
 C: R = ¬B
 
-LECCIÓN:
-SOLUCIÓN:
+LECCIÓN: contradicción y redundancia
+SOLUCIÓN: se obtienen las soluciones válidas (0,0,1), (1,0,1)
+Por lo tanto B es escudero y C es caballero.
 
 
 # Caso 8
