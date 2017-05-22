@@ -131,8 +131,9 @@ B: A y C son del mismo tipo.
 A: P = ¬B
 B: Q = (A ⇔ C)
 
-LECCIÓN:
-SOLUCIÓN:
+LECCIÓN: múltiples frases, AND
+SOLUCIÓN: se obtienen las soluciones válidas (1,0,0), (0,1,0)
+Por lo que podemos asegurar que C es escudero.
 
 
 # Caso 7
