@@ -158,6 +158,8 @@ B: Q = (A ⇔ ¬A)
 C: R = ¬B
 
 LECCIÓN: contradicción y redundancia
+A nunca será igual a ¬A por lo que ningún habitante podría decir nunca la frase "Yo soy escudero"
+La información aportada por C es redundante y por tanto prescindible para la resolución del problema
 SOLUCIÓN: se obtienen las soluciones válidas (0,0,1), (1,0,1)
 Por lo tanto B es escudero y C es caballero.
 
@@ -191,10 +193,15 @@ A: P = ?
 B: Q = (A ⇔ (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ ¬C) ∨ (¬A ∧ ¬B ∧ C))
 C: R = ¬B
 
-Definir bloque: (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ ¬C) ∨ (¬A ∧ ¬B ∧ C): Detector 1 caballero
+Definir bloque: (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ ¬C) ∨ (¬A ∧ ¬B ∧ C)
+Puerta ONE 1 -> Detector sólo un caballero
 
-LECCIÓN: DeMorgan,
-SOLUCIÓN:
+NOT, 3-bit AND, 3-bit OR
+
+
+LECCIÓN: 3-bit XOR (3-bit AND, 3-bit OR)
+SOLUCIÓN: se obtienen las soluciones válidas (0,0,1), (1,0,1)
+Por lo tanto B es escudero y C es caballero
 
 
 # Caso 9
@@ -213,7 +220,7 @@ caballero.
 A: P = ¬A ∧ ¬B ∧ ¬C = ¬(A ∨ B ∨ C)
 B: Q = (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ ¬C) ∨ (¬A ∧ ¬B ∧ C)
 
-LECCIÓN: DeMorgan,
+LECCIÓN: DeMorgan, 3-bit NOR
 SOLUCIÓN:
 
 
@@ -233,6 +240,8 @@ A: P = ¬A ∧ ¬B ∧ ¬C = ¬(A ∨ B ∨ C)
 B: Q = (¬A ∧ B ∧ C) ∨ (A ∧ ¬B ∧ C) ∨ (A ∧ B ∧ ¬C)
 
 Definir bloque: (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ ¬C) ∨ (¬A ∧ ¬B ∧ C): Detector 1 escudero
+
+Nuevo bloque
 
 LECCIÓN: DeMorgan,
 SOLUCIÓN:
