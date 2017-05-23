@@ -196,9 +196,6 @@ C: R = ¬B
 Definir bloque: (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ ¬C) ∨ (¬A ∧ ¬B ∧ C)
 Puerta ONE 1 -> Detector sólo un caballero
 
-NOT, 3-bit AND, 3-bit OR
-
-
 LECCIÓN: ONE-1 (3-bit AND, 3-bit OR)
 SOLUCIÓN: se obtienen las soluciones válidas (0,0,1), (1,0,1)
 Por lo tanto B es escudero y C es caballero
@@ -240,12 +237,13 @@ escudero.
 A: P = ¬A ∧ ¬B ∧ ¬C = ¬(A ∨ B ∨ C)
 B: Q = (¬A ∧ B ∧ C) ∨ (A ∧ ¬B ∧ C) ∨ (A ∧ B ∧ ¬C)
 
-Definir bloque: (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ ¬C) ∨ (¬A ∧ ¬B ∧ C): Detector 1 escudero
+Definir bloque: (¬A ∧ B ∧ C) ∨ (A ∧ ¬B ∧ C) ∨ (A ∧ B ∧ ¬C)
+Puerta ONE 0 -> Detector sólo 1 escudero
 
-Nuevo bloque
-
-LECCIÓN: DeMorgan,
-SOLUCIÓN:
+LECCIÓN: DeMorgan, 3-bit NOR, ONE-0
+SOLUCIÓN: se obtienen las soluciones válidas (0,0,1), (0,1,1)
+Por lo tanto se puede afirmar que A es un escudero y C un caballero.
+No se puede saber qué es B
 
 
 
