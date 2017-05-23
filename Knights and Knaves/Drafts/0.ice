@@ -1,10 +1,10 @@
 {
   "version": "1.1",
   "package": {
-    "name": "",
-    "version": "",
+    "name": "Knights and Knaves 0",
+    "version": "1.0.0",
     "description": "",
-    "author": "",
+    "author": "Jesús Arroyo Torrens",
     "image": ""
   },
   "design": {
