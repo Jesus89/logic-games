@@ -135,7 +135,7 @@ La sentencia se puede expresar de dos maneras:
 
 > Hay tres personas, A, B y C. A dice, «B y C son del mismo tipo». Alguien pregunta entonces a C, «¿Son A y B del mismo tipo?». ¿Qué responde C?
 
-A: P = (B ⇔ C)
+A: P = (B ↔ C)
 
 * LECCIÓN: XNOR
 * SOLUCIÓN: se obtienen las soluciones válidas (1,0,0), (0,1,0), (0,0,1), (1,1,1)
@@ -158,7 +158,7 @@ En ambos casos C responderá SÍ.
 
 A: P = ¬B
 <br>
-B: Q = (A ⇔ C)
+B: Q = (A ↔ C)
 
 * LECCIÓN: múltiples frases, AND
 * SOLUCIÓN: se obtienen las soluciones válidas (1,0,0), (0,1,0)
@@ -183,7 +183,7 @@ ese instante el tercer hombre, C, dijo,
 La pregunta es, ¿qué son B y C?
 
 A: P = ?
-B: Q = (A ⇔ ¬A)
+B: Q = (A ↔ ¬A)
 C: R = ¬B
 
 LECCIÓN: contradicción y redundancia
@@ -213,7 +213,7 @@ mintiendo!».
 Ahora, ¿qué son B y C?
 
 A: P = ?
-B: Q = (A ⇔ (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ ¬C) ∨ (¬A ∧ ¬B ∧ C))
+B: Q = (A ↔ (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ ¬C) ∨ (¬A ∧ ¬B ∧ C))
 C: R = ¬B
 
 Definir bloque: (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ ¬C) ∨ (¬A ∧ ¬B ∧ C)
