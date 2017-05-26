@@ -1,7 +1,7 @@
 {
   "version": "1.1",
   "package": {
-    "name": "Knights and Knaves 4",
+    "name": "Knights and Knaves 4'",
     "version": "1.0.0",
     "description": "",
     "author": "Jesús Arroyo Torrens",
@@ -133,35 +133,11 @@
           }
         },
         {
-          "id": "2597a8df-546a-4d25-9b6a-30dfa42fd32f",
-          "type": "32200dc0915d45d6ec035bcec61c8472f0cc7b88",
+          "id": "9c92ef47-0f53-422b-8e3e-879f7a7bade1",
+          "type": "b976cb296df6f254be669646980f6ddb8504dbbc",
           "position": {
-            "x": 464,
-            "y": 232
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
-          "id": "290f8dc3-6112-4204-a69f-7db6f3df03fe",
-          "type": "2fa1b5e2ab379d4aa2f25ff2ff5a6874c24d3cab",
-          "position": {
-            "x": 608,
+            "x": 552,
             "y": 296
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
-          "id": "6fb5cd21-454c-4a2b-b7a4-4ebf262f9aa0",
-          "type": "32200dc0915d45d6ec035bcec61c8472f0cc7b88",
-          "position": {
-            "x": 464,
-            "y": 312
           },
           "size": {
             "width": 96,
@@ -261,7 +237,7 @@
         },
         {
           "source": {
-            "block": "290f8dc3-6112-4204-a69f-7db6f3df03fe",
+            "block": "9c92ef47-0f53-422b-8e3e-879f7a7bade1",
             "port": "664caf9e-5f40-4df4-800a-b626af702e62"
           },
           "target": {
@@ -275,28 +251,8 @@
             "port": "b3f948ec-80fb-424a-b99c-65daf85d0eda"
           },
           "target": {
-            "block": "2597a8df-546a-4d25-9b6a-30dfa42fd32f",
+            "block": "9c92ef47-0f53-422b-8e3e-879f7a7bade1",
             "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
-          }
-        },
-        {
-          "source": {
-            "block": "2597a8df-546a-4d25-9b6a-30dfa42fd32f",
-            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
-          },
-          "target": {
-            "block": "290f8dc3-6112-4204-a69f-7db6f3df03fe",
-            "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
-          }
-        },
-        {
-          "source": {
-            "block": "6fb5cd21-454c-4a2b-b7a4-4ebf262f9aa0",
-            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
-          },
-          "target": {
-            "block": "290f8dc3-6112-4204-a69f-7db6f3df03fe",
-            "port": "97b51945-d716-4b6c-9db9-970d08541249"
           }
         },
         {
@@ -305,8 +261,8 @@
             "port": "ba9c660b-e6bb-4d3f-a24c-dfa7290c503a"
           },
           "target": {
-            "block": "6fb5cd21-454c-4a2b-b7a4-4ebf262f9aa0",
-            "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+            "block": "9c92ef47-0f53-422b-8e3e-879f7a7bade1",
+            "port": "97b51945-d716-4b6c-9db9-970d08541249"
           },
           "vertices": [
             {
@@ -320,7 +276,7 @@
     "state": {
       "pan": {
         "x": -45.5652,
-        "y": -23.8899
+        "y": -24.2381
       },
       "zoom": 0.8913
     }
@@ -1319,6 +1275,120 @@
           "pan": {
             "x": 58,
             "y": 55.5
+          },
+          "zoom": 1
+        }
+      }
+    },
+    "b976cb296df6f254be669646980f6ddb8504dbbc": {
+      "package": {
+        "name": "NAND",
+        "version": "1.0.0",
+        "description": "NAND logic gate",
+        "author": "Carlos Diaz",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Cpath%20d=%22M-252%20409.9h26v2h-26zM-252%20429.9h27v2h-27z%22/%3E%3Cpath%20d=%22M-227%20400.9v39.9h20.4c11.3%200%2020-9%2020-20s-8.7-20-20-20H-227zm2.9%202.8h17.6c9.8%200%2016.7%207.6%2016.7%2017.1%200%209.5-7.4%2017.1-17.1%2017.1H-224c-.1.1-.1-34.2-.1-34.2zM-177.3%20419.9h15.3v2h-15.3z%22/%3E%3Cpath%20d=%22M-181.4%20426.3c-2.9%200-5.3-2.4-5.3-5.3s2.4-5.3%205.3-5.3%205.3%202.4%205.3%205.3-2.4%205.3-5.3%205.3zm0-8.6c-1.8%200-3.3%201.5-3.3%203.3%200%201.8%201.5%203.3%203.3%203.3s3.3-1.5%203.3-3.3c0-1.8-1.5-3.3-3.3-3.3z%22/%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "00925b04-5004-4307-a737-fa4e97c8b6ab",
+              "type": "basic.code",
+              "data": {
+                "code": "// NAND logic gate\n\nassign c = ~(a & b);",
+                "params": [],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "a"
+                    },
+                    {
+                      "name": "b"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "c"
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 256,
+                "y": 48
+              }
+            },
+            {
+              "id": "18c2ebc7-5152-439c-9b3f-851c59bac834",
+              "type": "basic.input",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 64,
+                "y": 80
+              }
+            },
+            {
+              "id": "664caf9e-5f40-4df4-800a-b626af702e62",
+              "type": "basic.output",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 752,
+                "y": 144
+              }
+            },
+            {
+              "id": "97b51945-d716-4b6c-9db9-970d08541249",
+              "type": "basic.input",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 64,
+                "y": 208
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "18c2ebc7-5152-439c-9b3f-851c59bac834",
+                "port": "out"
+              },
+              "target": {
+                "block": "00925b04-5004-4307-a737-fa4e97c8b6ab",
+                "port": "a"
+              }
+            },
+            {
+              "source": {
+                "block": "97b51945-d716-4b6c-9db9-970d08541249",
+                "port": "out"
+              },
+              "target": {
+                "block": "00925b04-5004-4307-a737-fa4e97c8b6ab",
+                "port": "b"
+              }
+            },
+            {
+              "source": {
+                "block": "00925b04-5004-4307-a737-fa4e97c8b6ab",
+                "port": "c"
+              },
+              "target": {
+                "block": "664caf9e-5f40-4df4-800a-b626af702e62",
+                "port": "in"
+              }
+            }
+          ]
+        },
+        "state": {
+          "pan": {
+            "x": 0,
+            "y": 0
           },
           "zoom": 1
         }
