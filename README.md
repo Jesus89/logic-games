@@ -2,12 +2,10 @@
 
 ¿How to solve logic games using an FPGA? Let's do some experiments!
 
-## Cases
+* **[Home (es)](https://github.com/Jesus89/logic-games/wiki)**
+* **[Knights and Knaves (es)](https://github.com/Jesus89/logic-games/wiki/Caballeros-y-escuderos:-introducción)**
 
-* [Case 1 (es)](https://github.com/Jesus89/logic-games/wiki/Caso-01)
-* [Case 2 (es)](https://github.com/Jesus89/logic-games/wiki/Caso-02)
-
-## Authors
+## Author
 
 * [Jesús Arroyo Torrens](https://github.com/Jesus89)
 
